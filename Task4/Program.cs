@@ -4,29 +4,29 @@
 //22 3 9 -> 22
 
 Console.Clear();
-Console.Write("Input number one ");
+Console.WriteLine("Input number one ");
 int numberA = int.Parse(Console.ReadLine());
-Console.Write("Input number two ");
+Console.WriteLine("Input number two ");
 int numberB = int.Parse(Console.ReadLine());
-Console.Write("Input number three ");
+Console.WriteLine("Input number three ");
 int numberC = int.Parse(Console.ReadLine());
 if (numberA > numberB)
 {
     if (numberA > numberC)
     {
-        Console.Write($"{numberA} is max");
+        Console.WriteLine($"{numberA} is max");
     }
     else
     {
-        Console.Write($"{numberC} is max");
+        Console.WriteLine($"{numberC} is max");
     }
 }
 else if (numberB > numberC)
      {
-         Console.Write($"{numberB} is max");
+         Console.WriteLine($"{numberB} is max");
      }
      else
      {
-        Console.Write($"{numberC} is max");
+        Console.WriteLine($"{numberC} is max");
      }
 

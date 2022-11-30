@@ -3,9 +3,9 @@
 //a = 2 b = 10 -> max = 10
 //a = -9 b = -3 -> max = -3
 Console.Clear();
-Console.Write("Введите первое число ");
+Console.WriteLine("Введите первое число ");
 int numberA = int.Parse(Console.ReadLine());
-Console.Write("Введите второе число ");
+Console.WriteLine("Введите второе число ");
 int numberB = int.Parse(Console.ReadLine());
 if (numberA > numberB)
 {
@@ -13,5 +13,5 @@ if (numberA > numberB)
 }
 else
 {
-    Console.Write($"{numberB} is max");
+    Console.WriteLine($"{numberB} is max");
 }
