@@ -15,7 +15,7 @@ if (numberA % 2==0)
 }
 else
 {
-        while (count < numberA)
+    while (count < numberA)
     {
         Console.WriteLine($"{count} ");
         count = count + 2;
